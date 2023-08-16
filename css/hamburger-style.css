@@ -180,9 +180,9 @@ ul{
     grid-column: 1;
     border: 1px solid;
     margin-top: 100px;
-    padding-top: 150px;
+    padding-top: 100px;
     padding-left: 50px;
-    height: 600px;
+    height: 500px;
     background-image:url("/images/pexels-rostislav-uzunov-5011647.jpg") ;
     background-repeat: no-repeat;
     background-position: center;
@@ -243,7 +243,7 @@ ul{
     
 }
 .cont-2 div {
-    margin-top: 150px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -328,7 +328,7 @@ ul{
     border-bottom: 6px solid rgb(67, 23, 109);
     width: 60px; 
     height: 20px;
-    top: 30.6%;
+    top: 27.7%;
     transform: skew(-30deg);
     left: 5.4%;
 }
@@ -359,10 +359,10 @@ ul{
     border-bottom: 6px solid white;
     width: 50px; 
     height: 20px;
-    top: 30.6%;
+    top: 27.7%;
     transform: skew(-30deg);
     padding-left: 15px;
-    right: 43.7%;
+    right: 43.3%;
     
 }
 
@@ -437,11 +437,12 @@ ul{
 .cont-5 div{
     margin-top: 100px;
 }
-.cont-5 a{
+.cont-5 div a{
     background: white;
     padding: 20px 45px 20px 45px;
     border-radius: 3px;
     font-weight: 400;
+    color: rgb(67, 23, 109);
 }
 .cont-5 a:hover{
     background-color: rgb(218, 214, 223);
@@ -504,12 +505,17 @@ ul{
     content: '';
     position: absolute;
     border-bottom: 6px solid rgb(67, 23, 109);
-    width: 50px; 
+    width: 100px; 
     height: 20px;
-    top: 86.6%;
+    top: 86%;
+    transform: skewX(-10deg);
 }
 .cont-20 p{
     padding-top: 20px;
+}
+.cont-20 h3{
+    color: black;
+    
 }
 
 .cont-12 .ceo{
